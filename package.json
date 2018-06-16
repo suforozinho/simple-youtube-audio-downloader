@@ -1,0 +1,9 @@
+{
+  "name": "my-youtube-audio-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "youtube-mp3-downloader": "^0.5.3"
+  }
+}
