@@ -1,8 +1,10 @@
+const homedir = require('os').homedir()
+
 const YoutubeMp3Downloader = require('youtube-mp3-downloader')
 
 const YD = new YoutubeMp3Downloader({
   ffmpegPath: '/usr/bin/ffmpeg',
-  outputPath: '/home/thomas/Music',
+  outputPath: `${homedir}/Downloads`,
   youtubeVideoQuality: 'highest',
   queueParallelism: 2,
   progressTimeout: 2000
